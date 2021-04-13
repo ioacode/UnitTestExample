@@ -13,9 +13,12 @@ class ViewController: UIViewController {
     @IBOutlet weak var labelTitle: UILabel!
     @IBOutlet weak var labelTime: UILabel!
     
+    let globalVariabel = GlobalVariable()
     override func viewDidLoad() {
         super.viewDidLoad()
         setTime()
+        
+        print(globalVariabel.BASEURL)
     }
     
     override func viewWillAppear(_ animated: Bool) {
