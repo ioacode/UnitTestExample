@@ -10,6 +10,7 @@
 		05B16427137C572A596C46AE /* Pods_UnitTestExample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C83D1430FA08EB6ECF04EB7 /* Pods_UnitTestExample.framework */; };
 		A554B2C53A1F64E4BC7AA31C /* Pods_UnitTestExampleTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7469F5EA1037CA5D5C250A34 /* Pods_UnitTestExampleTests.framework */; };
 		C9B783043806C1740B94301A /* Pods_UnitTestExample_UnitTestExampleUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAC31B8D9A26401EAD5206F2 /* Pods_UnitTestExample_UnitTestExampleUITests.framework */; };
+		F30A0CE42625448600748C0F /* DateExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F30A0CE32625448600748C0F /* DateExtension.swift */; };
 		F3EC811825118FAC00D21EDF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3EC811725118FAC00D21EDF /* AppDelegate.swift */; };
 		F3EC811A25118FAC00D21EDF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3EC811925118FAC00D21EDF /* SceneDelegate.swift */; };
 		F3EC811C25118FAC00D21EDF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3EC811B25118FAC00D21EDF /* ContentView.swift */; };
@@ -48,6 +49,7 @@
 		D5F24CCFE47F2ABB3B6ED2CF /* Pods-UnitTestExampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UnitTestExampleTests.release.xcconfig"; path = "Target Support Files/Pods-UnitTestExampleTests/Pods-UnitTestExampleTests.release.xcconfig"; sourceTree = "<group>"; };
 		D7CF2A7C5606827518FF0BA5 /* Pods-UnitTestExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UnitTestExample.release.xcconfig"; path = "Target Support Files/Pods-UnitTestExample/Pods-UnitTestExample.release.xcconfig"; sourceTree = "<group>"; };
 		F10B0897A3D445DBECE7620B /* Pods-UnitTestExample-UnitTestExampleUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UnitTestExample-UnitTestExampleUITests.release.xcconfig"; path = "Target Support Files/Pods-UnitTestExample-UnitTestExampleUITests/Pods-UnitTestExample-UnitTestExampleUITests.release.xcconfig"; sourceTree = "<group>"; };
+		F30A0CE32625448600748C0F /* DateExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateExtension.swift; sourceTree = "<group>"; };
 		F3EC811425118FAC00D21EDF /* UnitTestExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UnitTestExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3EC811725118FAC00D21EDF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F3EC811925118FAC00D21EDF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -115,8 +117,15 @@
 				F879CEEA9DECF8F0F96D38ED /* Pods-UnitTestExampleTests.debug.xcconfig */,
 				D5F24CCFE47F2ABB3B6ED2CF /* Pods-UnitTestExampleTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		F30A0CE22625446D00748C0F /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				F30A0CE32625448600748C0F /* DateExtension.swift */,
+			);
+			path = Extension;
 			sourceTree = "<group>";
 		};
 		F3EC810B25118FAC00D21EDF = {
@@ -144,6 +153,7 @@
 		F3EC811625118FAC00D21EDF /* UnitTestExample */ = {
 			isa = PBXGroup;
 			children = (
+				F30A0CE22625446D00748C0F /* Extension */,
 				F3EC811725118FAC00D21EDF /* AppDelegate.swift */,
 				F3EC811925118FAC00D21EDF /* SceneDelegate.swift */,
 				F3EC811B25118FAC00D21EDF /* ContentView.swift */,
@@ -388,6 +398,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F3EC811825118FAC00D21EDF /* AppDelegate.swift in Sources */,
+				F30A0CE42625448600748C0F /* DateExtension.swift in Sources */,
 				F3EC811A25118FAC00D21EDF /* SceneDelegate.swift in Sources */,
 				F3EC814A2511946E00D21EDF /* ViewController.swift in Sources */,
 				F3EC811C25118FAC00D21EDF /* ContentView.swift in Sources */,
