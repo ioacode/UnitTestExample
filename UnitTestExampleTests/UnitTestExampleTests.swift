@@ -10,11 +10,12 @@ import XCTest
 @testable import UnitTestExample
 
 class UnitTestExampleTests: XCTestCase {
-    func testHelloWorld(){
-        var helloworld: String?
-        XCTAssertNil(helloworld)
+    
+    //MARK: - Testing function with XCTAssertEqual
+    func testTimeAgoStrings() {
+        let fiveMinuteAgo = Date(timeIntervalSinceNow: -5 * 60)
+        let fiveMinuteAgoDisplay = fiveMinuteAgo.timeAgoDisplay()
         
-        helloworld = "Hello World!"
-        XCTAssertEqual(helloworld, "Hello World!")
+        XCTAssertEqual(fiveMinuteAgoDisplay, "5 minutes ago")
     }
 }

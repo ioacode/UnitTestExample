@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "928B95F1-C71B-48F7-BEB5-82286AE4F85F"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "35669D02-AAE4-4CDB-A17D-1D6234357012"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "UnitTestExampleTests/UnitTestExampleTests.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "12"
+            endingLineNumber = "12"
+            landmarkName = "UnitTestExampleTests"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "35669D02-AAE4-4CDB-A17D-1D6234357012 - 87bb276c111a36d2"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "UnitTestExampleTests.UnitTestExampleTests.__deallocating_deinit"
+                  moduleName = "UnitTestExampleTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hungryhub/IOS/LEARNING/UnitTestExample/UnitTestExampleTests/UnitTestExampleTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  uuid = "35669D02-AAE4-4CDB-A17D-1D6234357012 - e69f162c67685758"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "UnitTestExampleTests.UnitTestExampleTests.__allocating_init(invocation: Swift.Optional&lt;__C.NSInvocation&gt;) -&gt; UnitTestExampleTests.UnitTestExampleTests"
+                  moduleName = "UnitTestExampleTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hungryhub/IOS/LEARNING/UnitTestExample/UnitTestExampleTests/UnitTestExampleTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "12">
+               </Location>
+               <Location
+                  uuid = "35669D02-AAE4-4CDB-A17D-1D6234357012 - 4985ca3b93d9a5cd"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "UnitTestExampleTests.UnitTestExampleTests.init(invocation: Swift.Optional&lt;__C.NSInvocation&gt;) -&gt; UnitTestExampleTests.UnitTestExampleTests"
+                  moduleName = "UnitTestExampleTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hungryhub/IOS/LEARNING/UnitTestExample/UnitTestExampleTests/UnitTestExampleTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "119">
+               </Location>
+               <Location
+                  uuid = "35669D02-AAE4-4CDB-A17D-1D6234357012 - c816a065ee5d9219"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "UnitTestExampleTests.UnitTestExampleTests.__allocating_init(selector: ObjectiveC.Selector) -&gt; UnitTestExampleTests.UnitTestExampleTests"
+                  moduleName = "UnitTestExampleTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hungryhub/IOS/LEARNING/UnitTestExample/UnitTestExampleTests/UnitTestExampleTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "12">
+               </Location>
+               <Location
+                  uuid = "35669D02-AAE4-4CDB-A17D-1D6234357012 - 194953813ed82dad"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "UnitTestExampleTests.UnitTestExampleTests.init(selector: ObjectiveC.Selector) -&gt; UnitTestExampleTests.UnitTestExampleTests"
+                  moduleName = "UnitTestExampleTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hungryhub/IOS/LEARNING/UnitTestExample/UnitTestExampleTests/UnitTestExampleTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "119">
+               </Location>
+               <Location
+                  uuid = "35669D02-AAE4-4CDB-A17D-1D6234357012 - 2e3d7fd8835d3cfc"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "UnitTestExampleTests.UnitTestExampleTests.__allocating_init() -&gt; UnitTestExampleTests.UnitTestExampleTests"
+                  moduleName = "UnitTestExampleTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hungryhub/IOS/LEARNING/UnitTestExample/UnitTestExampleTests/UnitTestExampleTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  uuid = "35669D02-AAE4-4CDB-A17D-1D6234357012 - 591125afcd51867"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "UnitTestExampleTests.UnitTestExampleTests.init() -&gt; UnitTestExampleTests.UnitTestExampleTests"
+                  moduleName = "UnitTestExampleTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hungryhub/IOS/LEARNING/UnitTestExample/UnitTestExampleTests/UnitTestExampleTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "93">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
