@@ -1,2 +1,5 @@
 # UnitTestExample
-first time for Unit Testing in IOS
+Unit Testing in IOS
+
+Keyword in project :
+- XCTAssertEqual
