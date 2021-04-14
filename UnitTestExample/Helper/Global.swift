@@ -10,6 +10,7 @@ import Foundation
 
 class GlobalVariable {
     var BASEURL = "https://ojokturusore.com"
+    var BASEURLPROFILE = "https://testURL.com/user"
 }
 
 struct Hater {

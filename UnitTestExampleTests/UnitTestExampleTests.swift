@@ -77,4 +77,29 @@ class UnitTestExampleTests: XCTestCase {
         XCTAssertEqual( library, books, "String equality test failed")
     }
     
+    //MARK: - Testing Networking
+    func testNetworking() {
+        let foodReviewApiClient = FoodReviewApiClient()
+        let expectatiton = self.expectation(description: "Login Response Parse Expectation")
+        
+        foodReviewApiClient.login("hahaha@gmail.com", password: "123456") { json, error in
+            
+            XCTAssertNil(error)
+            guard let json = json else {
+                XCTFail()
+                return
+            }
+            
+            do {
+                let jsonData = try! JSONSerialization.data(withJSONObject: json, options: [])
+                let userprofile = try JSONDecoder().decode(UserProfile.self, from: jsonData)
+                XCTAssertNotNil(userprofile)
+                expectatiton.fulfill()
+            } catch {
+                XCTFail(error.localizedDescription)
+            }
+        }
+        self.waitForExpectations(timeout: 10.0, handler: nil)
+    }
+    
 }
