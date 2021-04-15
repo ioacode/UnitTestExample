@@ -102,4 +102,23 @@ class UnitTestExampleTests: XCTestCase {
         self.waitForExpectations(timeout: 10.0, handler: nil)
     }
     
+    
+    //MARK: - Testing User Default
+    func testIncreaseCountingShouldIncreaseValueBy1() {
+        let setupData = dataUserDefault()
+        let userDefaults = MockUserDefaultProtocol()
+        setupData.userSetup = userDefaults
+        
+        // testing save data string
+        setupData.savingUsername(with: "anton samba", forKey: .name)
+        XCTAssertNotNil(userDefaults.nameValue, "Data is nil")
+        XCTAssertEqual(userDefaults.nameValue, "anton samba")
+        
+        // testing save data Integer
+        userDefaults.numberValue = 3
+        setupData.savingNumber(with: 2, forKey: .number)
+        XCTAssertNotNil(userDefaults.numberValue, "Data is nil")
+        XCTAssertEqual(userDefaults.numberValue, 5)
+        
+    }
 }

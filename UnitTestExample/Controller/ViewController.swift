@@ -14,11 +14,10 @@ class ViewController: UIViewController {
     @IBOutlet weak var labelTime: UILabel!
     
     let globalVariabel = GlobalVariable()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        setTime()
-        
-        print(globalVariabel.BASEURL)
+        labelTime.text = "First time for something New ~"
     }
     
     override func viewWillAppear(_ animated: Bool) {

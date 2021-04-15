@@ -17,6 +17,8 @@
 		F30A0CFA2625798D00748C0F /* Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = F30A0CF92625798D00748C0F /* Book.swift */; };
 		F30A0D1C2626351300748C0F /* FoodReviewApiClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = F30A0D1B2626351300748C0F /* FoodReviewApiClient.swift */; };
 		F30A0D21262694B600748C0F /* UserProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = F30A0D20262694B600748C0F /* UserProfile.swift */; };
+		F36CF49B2626A9EF00613E2F /* UserDefault.swift in Sources */ = {isa = PBXBuildFile; fileRef = F36CF49A2626A9EF00613E2F /* UserDefault.swift */; };
+		F36CF4A32626E64900613E2F /* MockUserDefaultProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = F36CF4A22626E64900613E2F /* MockUserDefaultProtocol.swift */; };
 		F3EC811825118FAC00D21EDF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3EC811725118FAC00D21EDF /* AppDelegate.swift */; };
 		F3EC811A25118FAC00D21EDF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3EC811925118FAC00D21EDF /* SceneDelegate.swift */; };
 		F3EC811C25118FAC00D21EDF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3EC811B25118FAC00D21EDF /* ContentView.swift */; };
@@ -62,6 +64,8 @@
 		F30A0CF92625798D00748C0F /* Book.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Book.swift; sourceTree = "<group>"; };
 		F30A0D1B2626351300748C0F /* FoodReviewApiClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodReviewApiClient.swift; sourceTree = "<group>"; };
 		F30A0D20262694B600748C0F /* UserProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfile.swift; sourceTree = "<group>"; };
+		F36CF49A2626A9EF00613E2F /* UserDefault.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefault.swift; sourceTree = "<group>"; };
+		F36CF4A22626E64900613E2F /* MockUserDefaultProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockUserDefaultProtocol.swift; sourceTree = "<group>"; };
 		F3EC811425118FAC00D21EDF /* UnitTestExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UnitTestExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3EC811725118FAC00D21EDF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F3EC811925118FAC00D21EDF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -145,6 +149,8 @@
 			isa = PBXGroup;
 			children = (
 				F30A0CEE262557A300748C0F /* Global.swift */,
+				F36CF49A2626A9EF00613E2F /* UserDefault.swift */,
+				F36CF4A22626E64900613E2F /* MockUserDefaultProtocol.swift */,
 			);
 			path = Helper;
 			sourceTree = "<group>";
@@ -165,6 +171,22 @@
 				F30A0D1B2626351300748C0F /* FoodReviewApiClient.swift */,
 			);
 			path = API;
+			sourceTree = "<group>";
+		};
+		F34F7E372628098B00CE8E7E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F3EC81492511946E00D21EDF /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		F34F7E382628099500CE8E7E /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				F3EC81472511944F00D21EDF /* Main.storyboard */,
+			);
+			path = Storyboard;
 			sourceTree = "<group>";
 		};
 		F3EC810B25118FAC00D21EDF = {
@@ -192,6 +214,8 @@
 		F3EC811625118FAC00D21EDF /* UnitTestExample */ = {
 			isa = PBXGroup;
 			children = (
+				F34F7E382628099500CE8E7E /* Storyboard */,
+				F34F7E372628098B00CE8E7E /* Controller */,
 				F30A0D122625852800748C0F /* API */,
 				F30A0CF32625689300748C0F /* Model */,
 				F30A0CED2625578F00748C0F /* Helper */,
@@ -203,8 +227,6 @@
 				F3EC812225118FAF00D21EDF /* LaunchScreen.storyboard */,
 				F3EC812525118FAF00D21EDF /* Info.plist */,
 				F3EC811F25118FAF00D21EDF /* Preview Content */,
-				F3EC81472511944F00D21EDF /* Main.storyboard */,
-				F3EC81492511946E00D21EDF /* ViewController.swift */,
 			);
 			path = UnitTestExample;
 			sourceTree = "<group>";
@@ -441,10 +463,12 @@
 			files = (
 				F3EC811825118FAC00D21EDF /* AppDelegate.swift in Sources */,
 				F30A0CE42625448600748C0F /* DateExtension.swift in Sources */,
+				F36CF49B2626A9EF00613E2F /* UserDefault.swift in Sources */,
 				F30A0CF5262568A100748C0F /* Contact.swift in Sources */,
 				F3EC811A25118FAC00D21EDF /* SceneDelegate.swift in Sources */,
 				F3EC814A2511946E00D21EDF /* ViewController.swift in Sources */,
 				F30A0D21262694B600748C0F /* UserProfile.swift in Sources */,
+				F36CF4A32626E64900613E2F /* MockUserDefaultProtocol.swift in Sources */,
 				F30A0D1C2626351300748C0F /* FoodReviewApiClient.swift in Sources */,
 				F30A0CFA2625798D00748C0F /* Book.swift in Sources */,
 				F3EC811C25118FAC00D21EDF /* ContentView.swift in Sources */,
