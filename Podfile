@@ -7,6 +7,9 @@ target 'UnitTestExample' do
 
   # Pods for UnitTestExample
   pod 'SwiftLint'
+  pod 'Alamofire', '~> 5.2'
+  pod 'IQKeyboardManagerSwift'
+  pod 'NVActivityIndicatorView'
 
   target 'UnitTestExampleTests' do
     inherit! :search_paths
