@@ -24,7 +24,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         navigation?.navigationBar.tintColor = UIColor(named: "color_black")
         let story = UIStoryboard(name: "Main", bundle: nil)
         let navigationMain =
-            story.instantiateViewController(identifier: "ViewController") as ViewController
+            story.instantiateViewController(identifier: "LoginController") as LoginController
         window.rootViewController = UINavigationController(rootViewController: navigationMain)
         self.window = window
         window.makeKeyAndVisible()
