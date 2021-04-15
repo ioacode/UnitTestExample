@@ -25,3 +25,8 @@ struct Hater {
     }
 }
 
+enum Indetifier: String {
+    case Login = "LoginController"
+    case register = "RegisterController"
+    case profile = "ProfileController"
+}
