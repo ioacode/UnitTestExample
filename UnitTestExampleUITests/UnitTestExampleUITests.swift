@@ -43,6 +43,4 @@ class UnitTestExampleUITests: XCTestCase {
     override class func tearDown() {
     }
     
-    
-    
 }
